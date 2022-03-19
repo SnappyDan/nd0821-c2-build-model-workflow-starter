@@ -1,7 +1,7 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
 
 ## Related W&B Project
-[https://wandb.ai/dans/nyc_airbnb] (https://wandb.ai/dans/nyc_airbnb)
+[https://wandb.ai/dans/nyc_airbnb](https://wandb.ai/dans/nyc_airbnb)
 
 ## Intro
 You are working for a property management company renting rooms and properties for short periods of 

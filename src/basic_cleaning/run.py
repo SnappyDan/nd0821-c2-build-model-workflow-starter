@@ -37,11 +37,11 @@ def go(args):
     df = df[idx].copy()
 
     # Convert last_review to datetime
-    logger.info("Converting columns to the requied formats")
-    df['last_review'] = pd.to_datetime(df['last_review'])
+    #logger.info("Converting columns to the requied formats")
+    #df['last_review'] = pd.to_datetime(df['last_review'])
 
     # Drop null values
-    df = df.dropna()
+    #df = df.dropna().reset_index(drop=True)
 
     filename = "clean_sample.csv"
     df.to_csv(filename, index=False)

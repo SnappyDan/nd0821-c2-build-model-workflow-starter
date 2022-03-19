@@ -3,6 +3,9 @@
 ## Related W&B Project
 [https://wandb.ai/dans/nyc_airbnb](https://wandb.ai/dans/nyc_airbnb)
 
+## Link to this repo
+[https://github.com/SnappyDan/nd0821-c2-build-model-workflow-starter](https://github.com/SnappyDan/nd0821-c2-build-model-workflow-starter)
+
 ## Intro
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 

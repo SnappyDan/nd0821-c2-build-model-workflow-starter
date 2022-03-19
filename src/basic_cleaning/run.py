@@ -43,6 +43,10 @@ def go(args):
     # Drop null values
     #df = df.dropna().reset_index(drop=True)
 
+    # drop rows in the dataset that are not in the proper geolocation
+    idx = df['longitude'].between(-74.25, -73.50) & df['latitude'].between(40.5, 41.2)
+    df = df[idx].copy()
+
     filename = "clean_sample.csv"
     df.to_csv(filename, index=False)
 
